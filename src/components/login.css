@@ -1,0 +1,55 @@
+.login-container{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+}
+
+
+.login-content{
+    margin-bottom: 10vw;
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 40px;
+    height: 100%;
+
+    background-image: url("/src/images/login-background.jpg");
+}
+
+
+
+.cta{
+    border: 1px solid yellow;
+    margin-bottom: 2vw;
+    max-width: 650px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta_logo_one{
+    margin-bottom: 12px;
+    max-width: 600px;
+    min-height: 1px;
+    display: block;
+    width: 100%;
+}
+
+.cta_logo_two{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
